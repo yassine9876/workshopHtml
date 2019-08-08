@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="./css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-    <header>
-            <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./course.html">Courses</a></li>
-                    <li><a href="./contact.html">contact</a></li>
-            </ul>
+    <header class="header-nav">
+        <img class="logo" src="https://gomycode.tn/images/section2GMCLogo.png">
+        <ul class="navbar">
+            <li><a href="./index.html" class="item-menu">Home</a></li>
+            <li><a href="./course.html" class="item-menu">Courses</a></li>
+            <li><a href="./contact.html" class="item-menu">Contact</a></li>
+        </ul>
     </header>
     <main>
-    
-            <form>
-              name  :<br>
-                <input type="text" name="name"><br>
-                track :<br>
-                <select>
-                <option value="web">web</option>
-                <option value="game">game</option>
-                <option value="al">al</option>
-                </select>
 
-                email adress :<br>
-                <input type="text" name="email adress"><br>
-                phone number :<br>
-                <input type="text" name="phone number"><br>
-                <form>
-                    <button>sambit</button>
-                </form>
-            
-                
-    
-            </form>
+        <div class="salami">
+            <h1 class="thon">CONTACT</h1>
+        </div>
+        <form class="hrissa">
+
+            <label class="masr"> Name </label>
+            <input type="text" placeholder="Your Name " class="banane">
+            <label class="masr">Track </label>
+
+            <select class="frit">
+                <option>Web</option>
+                <option>Game</option>
+                <option>Al</option>
+            </select>
+
+            <label class="masr">Email Adress</label>
+            <input type="text" placeholder="name@example.com" class="yassine">
+            <label class="masr">Phone number</label>
+
+            <input type="number" placeholder="Your phone number" class="tomate">
+
+            <button class="kwika">submit</button>
+
+
+
+        </form>
     </main>
+
 </body>
+
 </html>
